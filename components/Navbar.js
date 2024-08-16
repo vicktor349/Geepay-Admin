@@ -23,7 +23,7 @@ const Navbar = () =>
 
     return (
         <div className="w-full relative">
-            <div className="bg-white shadow-md h-24 absolute w-[calc(100%-96px)] left-24 flex items-center">
+            <div className="bg-white shadow-md h-24 absolute w-[calc(100%-80px)] left-20 flex items-center">
                 <div className="flex items-center pl-7">
                     <p className="text-xl">Dashboard</p>
                 </div>
