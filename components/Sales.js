@@ -53,11 +53,13 @@ const Sales = () =>
                 layout: {
                     padding: {
                         top: 20,
-                        bottom: 20,
+                        bottom: 80,
                         left: 10,
                         right: 10
                     },
                 },
+                maintainAspectRatio: false,
+                responsive: true,
                 plugins: {
                     legend: {
                         display: false
@@ -70,7 +72,7 @@ const Sales = () =>
                     x: {
                         type: "category",
                         grid: {
-                            display: false
+                            display: false,
                         },
                     },
                     y: {
@@ -102,21 +104,21 @@ const Sales = () =>
     }
 
     return (
-        <div className='border border-borderColor rounded-xl shadow-xl'>
-            <div className='px-5 py-10'>
+        <div className='border border-borderColor rounded-xl shadow-xl sssm:w-[25rem] ssms:w-[28rem] sm:w-[33rem] md:w-[40rem] lg:w-[55rem] xl:w-fit'>
+            <div className='sm:px-4 py-5'>
                 <div className='flex mx-6 items-center'>
                     <div className="ml-auto">
-                        <span className='mr-4'>Sort by:</span>
-                        <select name="select" className='border border-1 rounded-3xl hover:cursor-pointer py-2 px-4 bg-transparent'>
+                        <span className='ssm:text-sm sm:text-base mr-4'>Sort by:</span>
+                        <select name="select" className='border border-1 rounded-3xl hover:cursor-pointer py-2 px-4 bg-transparent ssm:text-sm sm:text-base'>
                             <option value="daily">Daily</option>
                             <option value="daily">Weekly</option>
                             <option value="daily">Monthly</option>
                         </select>
                     </div>
                 </div>
-                <div className=' lg:w-[50rem] h-96'>
-                    <div className='w-full h-full'>
-                        <canvas id='myChart' className='w-fit h-fit'></canvas>
+                <div className='xl:w-[40rem] 2xl:w-[50rem] h-80'>
+                    <div className='h-[26rem]'>
+                        <canvas id='myChart' style={{ width: '100%', height: '100%' }}></canvas>
                     </div>
                 </div>
             </div>
