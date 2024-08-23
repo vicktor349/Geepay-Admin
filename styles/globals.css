@@ -1,7 +1,8 @@
 @tailwind base;
+@import '@mantine/core/styles.css';
+@import '@mantine/charts/styles.css';
 @tailwind components;
 @tailwind utilities;
-
 
 .html, .body{
   background-color: white;
