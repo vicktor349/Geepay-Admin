@@ -24,11 +24,11 @@ const Navbar = () =>
     return (
         <div className="w-full relative">
             <div className="bg-white shadow-md h-24 absolute w-full sm:w-[calc(100%-80px)] sm:left-20 flex items-center">
-                <div className="flex items-center pl-7">
+                <div className="flex items-center sm:pl-7 ssm:pl-2">
                     <p className="text-xl">Dashboard</p>
                 </div>
                 {/* User Details */}
-                <div className="ml-auto flex items-center pr-7 space-x-12">
+                <div className="ml-auto flex items-center sm:pr-7 space-x-12">
                     <div className="bg-white border border-gray-300 rounded-full h-10 hidden lg:flex items-center space-x-3 w-80">
                         <FiSearch color='#d1d5db' className='ml-3' size={24} />
                         <input className='h-8 rounded-e-full outline-none ring-0 focus:ring-0 focus:outline-none w-full pr-8' placeholder='Search...' />
