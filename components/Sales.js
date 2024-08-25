@@ -104,7 +104,7 @@ const Sales = () =>
     }
 
     return (
-        <div className='border border-borderColor rounded-xl shadow-xl ssm:w-[21.5rem] sssm:w-[23rem] ssms:w-[28rem] sm:w-[33rem] md:w-[40rem] lg:w-[55rem] xl:w-fit'>
+        <div className='border rounded-xl shadow-xl ssm:w-[21.5rem] sssm:w-[23rem] ssms:w-[28rem] sm:w-[33rem] md:w-[40rem] lg:w-[55rem] xl:w-fit'>
             <div className='sm:px-4 py-5'>
                 <div className='flex mx-6 items-center'>
                     <div className="ml-auto">
