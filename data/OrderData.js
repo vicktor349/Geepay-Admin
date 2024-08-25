@@ -14,21 +14,21 @@ const orderData = [
         status: "Refund"
     },
     {
-        "id": 1,
+        "id": 3,
         name: "Corey Schleifer",
         date: "Nov 15, 2023",
         Amount: "87,000",
         status: "Paid"
     },
     {
-        "id": 1,
+        "id": 4,
         name: "Cooper Press",
         date: "Nov 15, 2023",
         Amount: "100,000",
         status: "Refund"
     },
     {
-        "id": 1,
+        "id": 5,
         name: "Phillip Lubin",
         date: "Nov 15, 2023",
         Amount: "78,000",
