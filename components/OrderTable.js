@@ -4,7 +4,7 @@ import React from 'react'
 const OrderTable = () =>
 {
   return (
-    <div className='ssm:w-[21.5rem] sssm:w-[23rem] ssms:w-[28rem] sm:w-[33rem] md:w-[40rem] lg:w-[55rem] xl:w-[56rem] rounded-xl shadow-xl px-4 border border-border py-5 mt-8'>
+    <div className='h-fit ssm:w-[21.5rem] sssm:w-[23rem] ssms:w-[28rem] sm:w-[33rem] md:w-[40rem] lg:w-[55rem] xl:w-[56rem] rounded-xl shadow-xl px-4 border border-border py-5 mt-8'>
       <div className='flex items-center justify-between mb-5'>
         <p className='text-lg font-semibold'>Last Order</p>
         <p className='text-[#34CAA5] text-lg font-semibold hover:cursor-pointer'>See All</p>
