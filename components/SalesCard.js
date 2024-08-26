@@ -4,7 +4,7 @@ import React from 'react'
 const SalesCard = ({ icon, title, total, bgColor, text, trendIcon, color }) =>
 {
     return (
-        <div className='w-full p-4 xl:p-2 2xl:p-4 shadow-md rounded-md'>
+        <div className='w-full p-4 xl:p-2 2xl:p-4 shadow-md rounded-md border'>
             <div className='flex items-center justify-between'>
                 <p className='h-12 w-12 border border-solid rounded-full border-gray-400 flex items-center justify-center'>{icon}</p>
                 <Sparkline
