@@ -8,7 +8,7 @@ const orderData = [
     },
     {
         "id": 2,
-        name: "Jaydon VaccaroJaydon Vaccaro",
+        name: "Jaydon Vaccaro",
         date: "Nov 15, 2023",
         Amount: "150,000",
         status: "Refund"

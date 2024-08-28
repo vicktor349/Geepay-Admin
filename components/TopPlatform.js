@@ -5,7 +5,7 @@ import React from 'react'
 const TopPlatform = () =>
 {
     return (
-        <div className='rounded-xl shadow-xl px-4 border border-border py-5 mt-8 w-[32rem] h-fit'>
+        <div className='rounded-xl shadow-xl px-4 border border-border py-5 mt-8 xl:w-[30rem] 2xl:w-[32rem] h-fit'>
             <div className='flex items-center justify-between mb-5'>
                 <p className='text-lg font-semibold'>Top Platform</p>
                 <p className='text-[#34CAA5] text-lg font-semibold hover:cursor-pointer'>See All</p>

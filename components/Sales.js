@@ -104,7 +104,7 @@ const Sales = () =>
     }
 
     return (
-        <div className='border rounded-xl shadow-xl ssm:w-[21.5rem] sssm:w-[23rem] ssms:w-[28rem] sm:w-[33rem] md:w-[40rem] lg:w-[55rem] xl:w-fit'>
+        <div className='border rounded-xl shadow-xl ssm:w-[21.5rem] sssm:w-[23rem] ssms:w-[calc(100%-1px)] sm:w-[calc(100%-1px)] md:w-[calc(100%-1px)] lg:w-[calc(100%-1px)] xl:w-fit'>
             <div className='sm:px-4 py-5'>
                 <div className='flex mx-6 items-center'>
                     <div className="ml-auto">
@@ -116,7 +116,7 @@ const Sales = () =>
                         </select>
                     </div>
                 </div>
-                <div className='xl:w-[40rem] 2xl:w-[54rem] h-80'>
+                <div className='xl:w-[45rem] 2xl:w-[54rem] h-80'>
                     <div className='h-[26rem]'>
                         <canvas id='myChart' style={{ width: '100%', height: '100%' }}></canvas>
                     </div>

@@ -16,20 +16,23 @@ export default function Home()
       <Head>
         <title>Admin | Home</title>
       </Head>
-      <main className={`${inter.className} relative`}>
+      <main className={`${inter.className} flex flex-col`}>
         <Navbar />
-        <SideNavbar />
-        <div className="absolute ssm:left-[8px] sssm:left-[8px] ssms:left-[10px] sm:left-[90px] md:left-[100px] lg:left-[110px] xl:left-[80px] top-36 xl:w-[calc(100%-80px)] flex flex-col">
-          <div className="flex justify-center w-full flex-col xl:flex-row xl:space-x-4">
-            <Sales />
-            <Sale />
-          </div>
-          <div className="flex ml-52 flex-col xl:flex-row xl:space-x-4 mt-4">
-            <OrderTable />
-            <TopPlatform />
+        <div className="flex flex-1">
+          <SideNavbar />
+          <div className="flex-1 flex flex-col ssm:p-2 sm:p-4">
+            <div className="flex flex-col xl:flex-row xl:space-x-4 mt-28 justify-center">
+              <Sales />
+              <Sale />
+            </div>
+            <div className="flex flex-col xl:flex-row xl:space-x-4 mt-4 justify-center">
+              <OrderTable />
+              <TopPlatform />
+            </div>
           </div>
         </div>
       </main>
+
     </>
   );
 }
